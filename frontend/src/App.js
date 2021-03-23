@@ -1,11 +1,25 @@
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Container } from '@material-ui/core'
 
-function App() {
+import HomePage from './pages/HomePage'
+import MainHeader from './components/MainHeader'
+
+import './App.css'
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Test</h1>
-    </div>
-  );
+    <Container className="App">
+      <MainHeader />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+      </Router>
+    </Container>
+  )
 }
 
-export default App;
+export default App

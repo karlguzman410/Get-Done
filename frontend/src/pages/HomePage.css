@@ -1,0 +1,10 @@
+.homePage_container {
+  padding-top: 65px;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.homePage_greeting {
+  padding-bottom: 5%;
+}

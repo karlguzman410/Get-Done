@@ -1,0 +1,5 @@
+.main-header_appbar {
+  height: 50px;
+  background-color: #7ed6df;
+  background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+}

@@ -1,0 +1,20 @@
+.taskItem_container {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.taskItem_gridItem_name {
+  flex: 0.8;
+  color: white;
+}
+
+.taskItem_gridItem_deadline {
+  color: lightgray;
+  flex: 0.2;
+}
